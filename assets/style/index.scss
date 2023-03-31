@@ -1,0 +1,14 @@
+@use './compStyle/header';
+@use './compStyle/main';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #DFF6FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #06283D;
+}

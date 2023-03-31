@@ -1,0 +1,67 @@
+// variaveis
+$n1: #0f0;
+$n2: #333;
+
+
+
+// funções
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#conteudo {
+    width: 100vw;
+    height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        margin: auto;
+        width: 62rem;
+        @include flexCenter();
+        
+
+        .titleDesc {
+            height: 23rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h1 {
+                font-size: 4rem;
+
+                span {
+                    color: #47B5FF;
+                }
+            }
+
+            p {
+                color: #999;
+                width: 22rem;
+            }
+
+            button {
+                width: 10rem;
+                height: 3rem;
+                background-color:#1363DF;
+                cursor: pointer;
+                border-radius: 1rem;
+                border: 0;
+                font-size: 1.3rem;
+                font-weight: bold;
+
+                &:hover {
+                    transition: all ease 0.2s;
+                    background-color:#0d2b57;
+                    border: 1px solid #fff;
+                }
+            }
+        }
+
+        
+    }
+}

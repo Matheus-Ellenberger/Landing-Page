@@ -1,0 +1,79 @@
+// variaveis
+$corPrimari: #1363DF;
+
+// funçoes
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+}
+@mixin border {
+    padding: 0.5rem;
+    border-radius: 50%;
+
+}
+
+
+#head {
+    width: 100%;
+    display: flex;
+
+
+    .container-header {
+        width: 62rem;
+        height: 5rem;
+        margin: auto;
+        @include flexCenter();
+        justify-content: space-between;
+
+
+        .logo {
+            font-size: 3rem;
+            cursor:pointer;
+        }
+
+        ul {
+            width: 25rem;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+
+            li {
+                font-size: 1.5rem;
+                cursor:pointer;
+            }
+        }
+
+
+        .icons {
+            width: 10rem;
+            height: 5rem;
+            @include flexCenter();
+            justify-content: space-around;
+            
+
+            img {
+                width: 1.5rem;
+            }
+            
+            .login{
+                background-color: $corPrimari;
+                @include border();
+                
+                cursor: pointer;
+            }
+
+            .store,.favorite {
+                background-color: $corPrimari;
+                @include border();
+                cursor: pointer;
+            }
+
+            .favorite {
+                height: 3rem;
+                @include flexCenter();
+                
+
+            }
+        }
+    }
+}
