@@ -33,6 +33,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <div display="flex">
 <img  src="./assets/img/PJ.png"  width="500" display="center">
 </div>
+<br>
+
+## 📍 site
+
+- aqui voce poderá ver o site completo: <a href="https://matheus-ellenberger.github.io/Desafio-1/">Clique aqui.</a> 
+<br>
 
 <br>
 
