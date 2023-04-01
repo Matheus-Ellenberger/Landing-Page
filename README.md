@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 📷 Projeto
 <br>
 <div display="flex">
-<img  src="./assets/img/pj.png"  width="500" display="center">
+<img  src="./assets/img/PJ.png"  width="500" display="center">
 </div>
 
 <br>
