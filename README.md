@@ -37,8 +37,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 📍 site
 
-- aqui voce poderá ver o site completo: <a href="https://matheus-ellenberger.github.io/Desafio-1/">Clique aqui.</a> 
-<br>
+- aqui voce poderá ver o site completo: <a href="https://matheus-ellenberger.github.io/Landing-Page/">Clique aqui.</a> 
+
 
 <br>
 
