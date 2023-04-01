@@ -9,7 +9,6 @@ $corPrimari: #1363DF;
 @mixin border {
     padding: 0.5rem;
     border-radius: 50%;
-
 }
 
 
@@ -23,6 +22,7 @@ $corPrimari: #1363DF;
         height: 5rem;
         margin: auto;
         @include flexCenter();
+        justify-content: center;
         justify-content: space-between;
 
 
@@ -42,38 +42,57 @@ $corPrimari: #1363DF;
                 cursor:pointer;
             }
         }
+        
+    }
+}
 
+@media (max-width: 1024px) {
+    .container-header {
+        padding: 0px 40px;
+    }
+}
 
-        .icons {
+@media (max-width: 770px) {
+    
+    #head{
+        height: 7rem;
+
+    .container-header {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        width: 90%;
+        height: 7rem;
+
+        .logo{
+            font-size: 3rem;
+        }
+
+        ul {
+            font-size: 1rem;
+        }
+    }
+}
+}
+
+@media (max-width: 468px) {
+    .container-header {
+
+        width: 10rem;
+
+        .logo {
+            font-size: 1.5rem;
+        }
+
+        ul {
             width: 10rem;
-            height: 5rem;
-            @include flexCenter();
             justify-content: space-around;
-            
 
-            img {
-                width: 1.5rem;
-            }
-            
-            .login{
-                background-color: $corPrimari;
-                @include border();
-                
-                cursor: pointer;
-            }
-
-            .store,.favorite {
-                background-color: $corPrimari;
-                @include border();
-                cursor: pointer;
-            }
-
-            .favorite {
-                height: 3rem;
-                @include flexCenter();
-                
-
+            li {
+                font-size: 0.5rem;
             }
         }
     }
+        
+    
 }
